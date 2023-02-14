@@ -39,12 +39,16 @@
   }
 }
 
-.Navigation ul {
+.navigation ul {
   font-size: calc(10px + 2vmin);
   text-transform: uppercase;
 }
 
-.Navigation li {
+.navigation li {
   display: inline-block;
   margin-inline: 10px;
+}
+
+.divStyle {
+  color:#282c34;
 }

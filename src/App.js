@@ -11,24 +11,24 @@ class App extends React.Component {
         <div className="App">
           <div>
             <nav>
-              <ul id="navigation">
-                <li>
+              <ul className='Navigation'>
+                <li className='Navigation'>
                   <Link to="/">Home</Link>
                 </li>
-                <li>
-                <Link to="/about">About</Link>
+                <li className='Navigation'>
+                  <Link to="/about">About</Link>
                 </li>
-                <li>
-                <Link to="/contact">Contact</Link>
+                <li className='Navigation'>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </nav>
           </div>
             <Routes>
-            <Route exact path="/" element={<Home/>}/>
-            <Route exact path="/" element={<About/>}/>
-            <Route exact path="/" element={<Contact/>}/>
-          </Routes>
+              <Route exact path="/" element={<Home/>}/>
+              <Route exact path="/" element={<About/>}/>
+              <Route exact path="/" element={<Contact/>}/>
+            </Routes>
           </div>
             );
   }

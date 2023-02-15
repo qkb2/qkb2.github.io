@@ -9,17 +9,17 @@ class App extends React.Component {
   render() {
       return (
         <div className="App">
-          <div>
+          <div className='navigation'>
             <nav>
               <ul className='navigation'>
                 <li className='navigation'>
-                  <Link to="/">Home</Link>
+                  <Link to="/" className='App-link'>Home</Link>
                 </li>
                 <li className='navigation'>
-                  <Link to="/about">About</Link>
+                  <Link to="/about" className='App-link'>About</Link>
                 </li>
                 <li className='navigation'>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/contact" className='App-link'>Contact</Link>
                 </li>
               </ul>
             </nav>

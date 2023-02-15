@@ -5,11 +5,11 @@ class About extends React.Component {
     
     render() {
         return (
-            <div className='divStyle'>
-                <h2>About Page</h2>
-                <main>
+            <div className='App'>
+                <header className='App-header'>
+                    <h2>About Page</h2>
                     <p>This section contains information about...</p>
-                </main>
+                </header>
             </div>
         )
     }

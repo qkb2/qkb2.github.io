@@ -8,17 +8,11 @@ class Home extends React.Component {
             <div className="App">
                 <header className="App-header">
                 {/* <img src={logo} className="App-logo" alt="logo" /> */}
+                <h2>Welcome to my homepage!</h2>
                 <p>
-                    Edit <code>src/App.js</code> and save to reload.
+                    I'm Jakub Grabowski and I study Computer Engineering at Poznan University of Technology (PUT/PP).
+                    If you are interested in what I do or would like to hire me - let me know.
                 </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
                 </header>
             </div>
             

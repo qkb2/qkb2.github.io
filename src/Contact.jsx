@@ -8,7 +8,9 @@ class Contact extends React.Component {
             <div className='App'>
                 <header className='App-header'>
                     <h2>Contact Page</h2>
-                    <p>This section contains information about...</p>
+                    <p>
+                        If you want to contact me feel free to do so <a href = "https://www.linkedin.com/in/jakub-grabowski-b30ba6264/">via my linkedin profile.</a>
+                    </p>
                 </header>
             </div>
         )

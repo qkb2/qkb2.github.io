@@ -22,8 +22,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(7px + 2vmin);
   color: aliceblue;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .App-link {
@@ -44,17 +46,17 @@
   background-color:#282c34;
   font-weight: bold;
   align-items: flex-start;
-}
-
-.navigation ul {
   font-size: calc(5px + 2vmin);
   color:aliceblue;
   text-transform: uppercase;
   margin: 0%;
+  padding-top: 0.5%;
+  display: flex;
+  padding-left: 2.5%;
 }
 
 .navigation li {
-  display: inline-block;
+  display: inline-flex;
   margin-inline: 10px;
 }
 

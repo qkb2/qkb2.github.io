@@ -10,7 +10,7 @@ class App extends React.Component {
       return (
         <div className="App">
           <div className='navigation'>
-            <nav>
+            <nav className='navigation'>
               <ul className='navigation'>
                 <li className='navigation'>
                   <Link to="/" className='App-link'>Home</Link>

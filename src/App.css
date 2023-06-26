@@ -63,3 +63,16 @@
 .divStyle {
   color:#282c34;
 }
+
+.Embed iframe {
+  margin: 0; 
+  padding: 0;
+}
+
+.net-link {
+  color:#61dafb;
+}
+
+.net-link:visited {
+  color: coral;
+}

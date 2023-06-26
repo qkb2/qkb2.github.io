@@ -16,6 +16,7 @@ class About extends React.Component {
                         rudimentary operations in IOS for Cisco devices, would settle to work with most technologies
                         if given a chance.
                     </p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tWV4MuFYxNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </header>
             </div>
         )
